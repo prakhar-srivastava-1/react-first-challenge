@@ -9,9 +9,10 @@ import ReactDOM from "react-dom";
 // Inject list items as js
 const listItems = ["Milk", "Eggs", "Chicken"];
 
+// add a class to turn h1 elem red
 ReactDOM.render(
   <div>
-    <h1>My List</h1>
+    <h1 className="red-heading">My List</h1>
     <ul>
       <li>{listItems[0]}</li>
       <li>{listItems[1]}</li>
