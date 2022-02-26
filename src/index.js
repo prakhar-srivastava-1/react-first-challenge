@@ -3,7 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 // Import the newly created App component
-import App from "./App.jsx";
+import App from "./components/App.jsx";
 
 //It should display a h1 heading.
 //It should display an unordered list (bullet points).
