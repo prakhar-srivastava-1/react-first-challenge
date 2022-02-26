@@ -2,10 +2,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-// Custom component Heading
-import Heading from "./Heading.jsx";
-// Custom component List
-import List from "./List.jsx";
+// Import the newly created App component
+import App from "./App.jsx";
 
 //It should display a h1 heading.
 //It should display an unordered list (bullet points).
@@ -13,10 +11,4 @@ import List from "./List.jsx";
 
 // add a class to turn h1 elem red
 // turn on contentEditable and off spellCheck
-ReactDOM.render(
-  <div>
-    <Heading />
-    <List />
-  </div>,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
