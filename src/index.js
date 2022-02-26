@@ -4,6 +4,8 @@ import ReactDOM from "react-dom";
 
 // Custom component Heading
 import Heading from "./Heading.jsx";
+// Custom component List
+import List from "./List.jsx";
 
 //It should display a h1 heading.
 //It should display an unordered list (bullet points).
@@ -14,6 +16,7 @@ import Heading from "./Heading.jsx";
 ReactDOM.render(
   <div>
     <Heading />
+    <List />
   </div>,
   document.getElementById("root")
 );
