@@ -2,6 +2,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+// Custom component Heading
+import Heading from "./Heading.jsx";
+
 //It should display a h1 heading.
 //It should display an unordered list (bullet points).
 //It should contain 3 list elements.
@@ -13,9 +16,7 @@ const listItems = ["Milk", "Eggs", "Chicken"];
 // turn on contentEditable and off spellCheck
 ReactDOM.render(
   <div>
-    <h1 className="red-heading" contentEditable="true" spellCheck="false">
-      My List
-    </h1>
+    <Heading />
     <ul>
       <li>
         {listItems[0]}
